@@ -19,5 +19,14 @@ article {
         margin: 10px 20px;
         text-align: justify;
     }
+}
+
+
+@media screen and (min-width: 480px) {
+
+    article {
+        width: 80%;
+    }
+
 
 }

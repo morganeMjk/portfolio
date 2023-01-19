@@ -49,3 +49,21 @@
 #vue {
     color: rgb(46, 190, 89);
 }
+
+
+
+@media screen and (min-width: 480px) {
+
+    .main__articles__bloc{ 
+    
+        &__logos {
+            width: 25%;
+            gap: 10px;
+        }
+
+        &__taches {
+            padding-left: 30px;
+        }
+    }
+
+}

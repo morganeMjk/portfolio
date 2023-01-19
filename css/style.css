@@ -84,6 +84,21 @@ p {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.5844537644) 0%, rgba(20, 20, 20, 0.4976190305) 0%);
 }
 
+@media screen and (min-width: 480px) {
+  .header__liens__reseaux {
+    font-size: 20px;
+  }
+  .header__liens__coordonnees {
+    color: white;
+    font-size: 8px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0px;
+  }
+  .header__liens__coordonnees__mail {
+    color: white;
+  }
+}
 .main {
   background-image: url(../../img/fond3.jpg);
   background-size: cover;
@@ -142,6 +157,15 @@ p {
   color: rgb(46, 190, 89);
 }
 
+@media screen and (min-width: 480px) {
+  .main__articles__bloc__logos {
+    width: 25%;
+    gap: 10px;
+  }
+  .main__articles__bloc__taches {
+    padding-left: 30px;
+  }
+}
 #projets {
   padding-bottom: 30px;
 }
@@ -170,6 +194,14 @@ img:hover {
   color: black;
 }
 
+@media screen and (min-width: 480px) {
+  .main__articles__article {
+    display: flex;
+  }
+  img {
+    width: 150px;
+  }
+}
 .footer {
   background-color: white;
   height: 40px;
@@ -225,6 +257,12 @@ article {
 .main__articles__paragraphe {
   margin: 10px 20px;
   text-align: justify;
+}
+
+@media screen and (min-width: 480px) {
+  article {
+    width: 80%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

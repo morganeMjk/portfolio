@@ -70,3 +70,27 @@
         }
     }
 }
+
+
+
+@media screen and (min-width: 480px) {
+
+.header__liens {
+
+    &__reseaux {
+        font-size: 20px;
+    }
+
+    &__coordonnees {
+    color: white;
+    font-size: 8px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0px;
+
+    &__mail {
+        color: white;
+    }
+    }
+}
+}
