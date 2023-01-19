@@ -1,0 +1,51 @@
+.main__articles__bloc {
+    display: flex;
+
+    &__logos {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 15px;
+        gap: 5px;
+        width: 40%;
+
+        &__logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &__titre {
+                margin: 0px;
+                font-size: 6px;
+            }
+        }
+    }
+
+    &__taches {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+}
+
+
+
+#competences i {
+    font-size: 18px;
+}
+
+#html {
+    color: rgb(248, 110, 19);
+}
+
+#css, #python {
+    color: rgb(80, 80, 243);
+}
+
+#javascript {
+    color: rgb(224, 224, 36);
+}
+
+#vue {
+    color: rgb(46, 190, 89);
+}

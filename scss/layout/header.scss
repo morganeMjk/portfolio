@@ -1,0 +1,72 @@
+.header {
+    background-image: url(../../img/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin: 0px;
+    padding: 0px;
+    height: 150px;
+    padding-top: 2px;
+
+    &__liens{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__reseaux{
+            display: flex;
+            height: 1em;
+            font-size: 12px;
+            gap: 10px;
+            margin-left: 20px;
+            color: rgb(233, 226, 226);
+        }
+        
+        &__coordonnees {
+            display: flex;
+            height: 1em;
+            font-size: 6px;
+            gap: 10px;
+            margin-right: 5px;
+            color: rgba(0, 0, 0, 0.712);
+            font-family: 'Space Grotesk', sans-serif;
+
+            &__mail {
+                color: rgba(0, 0, 0, 0.712);
+                font-family: 'Space Grotesk', sans-serif;
+                text-decoration: none;
+            }
+        }
+    }
+
+    &__menupc {
+        display: none;
+    }
+
+    &__titre {
+        letter-spacing: 2px;
+        color: rgb(209, 199, 199);
+        text-shadow: 1px 1px 1px black;
+        text-align: center;
+        padding-top: 30px;
+        box-shadow: 1px 1px 1px rgba(39, 37, 37, 0.527);
+
+
+        &__h1 {
+            padding-top: 10px;
+            font-size: 18px;
+            margin : 0px;
+            backdrop-filter: blur(0.3px);
+            background: linear-gradient(90deg, rgba(255,255,255,0.5844537644159227) 0%, rgba(20,20,20,0.4976190305223652) 0%); 
+        }
+
+        &__h2 {
+            padding-bottom: 10px;
+            font-size: 14px;
+            font-variant: small-caps;
+            margin : 0px;
+            backdrop-filter: blur(0.3px);
+            background: linear-gradient(90deg, rgba(255,255,255,0.5844537644159227) 0%, rgba(20,20,20,0.4976190305223652) 0%); 
+        }
+    }
+}

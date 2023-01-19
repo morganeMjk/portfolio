@@ -1,0 +1,23 @@
+article {
+    background-color: rgba(255, 255, 255, 0.856);
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 1px 1px 1px rgba(82, 81, 81, 0.541);
+}
+
+
+.main__articles {
+    
+    &__titre {
+        margin: 10px 0px 20px 0px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+    &__paragraphe {
+        margin: 10px 20px;
+        text-align: justify;
+    }
+
+}

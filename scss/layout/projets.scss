@@ -1,0 +1,38 @@
+#projets {
+    padding-bottom: 30px;
+}
+
+#portfolio {
+    margin-bottom: 25px;
+}
+
+
+.main__articles__soustitre {
+    font-size: 12px;
+    margin: 0px;
+}
+
+
+
+
+
+
+img {
+    width: 100px;
+    display: block;
+    margin: auto;
+    transition: transform .5s ease;
+
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+#projets #html, #projets #css, #projets #javascript {
+    color: black;
+}

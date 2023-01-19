@@ -1,0 +1,230 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 9px;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+  line-height: 14px;
+}
+
+.header {
+  background-image: url(../../img/fond.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin: 0px;
+  padding: 0px;
+  height: 150px;
+  padding-top: 2px;
+}
+.header__liens {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__liens__reseaux {
+  display: flex;
+  height: 1em;
+  font-size: 12px;
+  gap: 10px;
+  margin-left: 20px;
+  color: rgb(233, 226, 226);
+}
+.header__liens__coordonnees {
+  display: flex;
+  height: 1em;
+  font-size: 6px;
+  gap: 10px;
+  margin-right: 5px;
+  color: rgba(0, 0, 0, 0.712);
+  font-family: "Space Grotesk", sans-serif;
+}
+.header__liens__coordonnees__mail {
+  color: rgba(0, 0, 0, 0.712);
+  font-family: "Space Grotesk", sans-serif;
+  text-decoration: none;
+}
+.header__menupc {
+  display: none;
+}
+.header__titre {
+  letter-spacing: 2px;
+  color: rgb(209, 199, 199);
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+  padding-top: 30px;
+  box-shadow: 1px 1px 1px rgba(39, 37, 37, 0.527);
+}
+.header__titre__h1 {
+  padding-top: 10px;
+  font-size: 18px;
+  margin: 0px;
+  backdrop-filter: blur(0.3px);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.5844537644) 0%, rgba(20, 20, 20, 0.4976190305) 0%);
+}
+.header__titre__h2 {
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-variant: small-caps;
+  margin: 0px;
+  backdrop-filter: blur(0.3px);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.5844537644) 0%, rgba(20, 20, 20, 0.4976190305) 0%);
+}
+
+.main {
+  background-image: url(../../img/fond3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0px;
+}
+.main__articles {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.main__articles__bloc {
+  display: flex;
+}
+.main__articles__bloc__logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  gap: 5px;
+  width: 40%;
+}
+.main__articles__bloc__logos__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__articles__bloc__logos__logo__titre {
+  margin: 0px;
+  font-size: 6px;
+}
+.main__articles__bloc__taches {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+#competences i {
+  font-size: 18px;
+}
+
+#html {
+  color: rgb(248, 110, 19);
+}
+
+#css, #python {
+  color: rgb(80, 80, 243);
+}
+
+#javascript {
+  color: rgb(224, 224, 36);
+}
+
+#vue {
+  color: rgb(46, 190, 89);
+}
+
+#projets {
+  padding-bottom: 30px;
+}
+
+#portfolio {
+  margin-bottom: 25px;
+}
+
+.main__articles__soustitre {
+  font-size: 12px;
+  margin: 0px;
+}
+
+img {
+  width: 100px;
+  display: block;
+  margin: auto;
+  transition: transform 0.5s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+#projets #html, #projets #css, #projets #javascript {
+  color: black;
+}
+
+.footer {
+  background-color: white;
+  height: 40px;
+  border-top: 0.1em solid #171717;
+  color: rgb(54, 53, 53);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer__lien {
+  color: rgb(54, 53, 53);
+  text-decoration: none;
+}
+
+.nav {
+  background-color: white;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  font-size: 8px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 1px rgba(99, 99, 99, 0.158);
+}
+.nav__menutel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15px;
+  margin: 0px;
+}
+.nav__menutel__liens {
+  color: rgb(59, 58, 58);
+  text-decoration: none;
+}
+.nav__menutel__liens:hover {
+  text-decoration: underline;
+}
+
+article {
+  background-color: rgba(255, 255, 255, 0.856);
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 1px 1px 1px rgba(82, 81, 81, 0.541);
+}
+
+.main__articles__titre {
+  margin: 10px 0px 20px 0px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.main__articles__paragraphe {
+  margin: 10px 20px;
+  text-align: justify;
+}
+
+/*# sourceMappingURL=style.css.map */

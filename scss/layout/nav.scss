@@ -1,0 +1,28 @@
+.nav {
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    font-size: 8px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 1px rgba(99, 99, 99, 0.158);
+
+    &__menutel {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 15px;
+        margin: 0px;
+
+        &__liens {
+            color: rgb(59, 58, 58);
+            text-decoration: none;
+        }
+
+        &__liens:hover {
+            text-decoration: underline;
+        }
+
+    }
+}
+
