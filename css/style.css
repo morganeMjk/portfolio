@@ -2,7 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-size: 9px;
+  font-size: 12px;
   font-family: "Sofia Sans Semi Condensed", sans-serif;
 }
 
@@ -28,12 +28,12 @@ p {
   margin: 0px;
   padding: 0px;
   height: 150px;
-  padding-top: 2px;
 }
 .header__liens {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: black;
 }
 .header__liens__reseaux {
   display: flex;
@@ -51,8 +51,8 @@ p {
 .header__liens__coordonnees {
   display: flex;
   height: 1em;
-  font-size: 6px;
-  gap: 10px;
+  font-size: 9px;
+  gap: 50px;
   margin-left: 5px;
   color: rgb(255, 255, 255);
   font-family: "Space Grotesk", sans-serif;
@@ -75,14 +75,14 @@ p {
 }
 .header__titre__h1 {
   padding-top: 10px;
-  font-size: 18px;
+  font-size: 24px;
   margin: 0px;
   backdrop-filter: blur(0.3px);
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.5844537644) 0%, rgba(20, 20, 20, 0.4976190305) 0%);
 }
 .header__titre__h2 {
   padding-bottom: 10px;
-  font-size: 14px;
+  font-size: 18px;
   font-variant: small-caps;
   margin: 0px;
   backdrop-filter: blur(0.3px);
@@ -91,11 +91,11 @@ p {
 
 @media screen and (min-width: 480px) {
   .header__liens__reseaux {
-    font-size: 20px;
+    font-size: 24px;
   }
   .header__liens__coordonnees {
     color: white;
-    font-size: 8px;
+    font-size: 12px;
     flex-direction: column;
     align-items: flex-end;
     gap: 0px;
@@ -134,7 +134,7 @@ p {
 }
 .main__articles__bloc__logos__logo__titre {
   margin: 0px;
-  font-size: 6px;
+  font-size: 9px;
 }
 .main__articles__bloc__taches {
   display: flex;
@@ -143,7 +143,7 @@ p {
 }
 
 #competences i {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 #html {
@@ -180,7 +180,7 @@ p {
 }
 
 .main__articles__soustitre {
-  font-size: 12px;
+  font-size: 14px;
   margin: 0px;
 }
 
@@ -227,7 +227,7 @@ img:hover {
   width: 100%;
   position: sticky;
   top: 0px;
-  font-size: 8px;
+  font-size: 10px;
   text-transform: uppercase;
   box-shadow: 1px 1px 1px rgba(99, 99, 99, 0.158);
 }
@@ -278,7 +278,7 @@ td:nth-child(1) {
   text-align: right;
   vertical-align: top;
   letter-spacing: 1px;
-  font-size: 7px;
+  font-size: 10px;
 }
 
 td:nth-child(2) {
