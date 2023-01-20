@@ -43,5 +43,20 @@ img:hover {
     img {
         width: 150px;
     }
+}
+
+@media screen and (min-width: 1280px) {
+    img {
+        width: 300px;
+        margin-left: 30px;
+    }
+
+    .main__articles__soustitre{
+        font-size: 20px;
+    }
+
+    .main__articles__article{
+        align-items: center;
+    }
 
 }

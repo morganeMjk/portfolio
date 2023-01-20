@@ -27,3 +27,14 @@
     }
 }
 
+@media screen and (min-width: 1280px) {
+.nav {
+    font-size: 18px;
+
+    &__menu {
+        height: 50px;
+    }
+
+}
+
+}

@@ -65,5 +65,19 @@
             padding-left: 30px;
         }
     }
+}
 
+@media screen and (min-width: 1280px) {
+
+#competences i {
+    font-size: 50px;
+    }
+
+#competences h4 {
+    font-size: 15px;
+}
+
+.main__articles__bloc__logos{ 
+    gap: 40px;
+}
 }

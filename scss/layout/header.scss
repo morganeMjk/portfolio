@@ -10,6 +10,7 @@
     &__liens{
         display: flex;
         align-items: center;
+        box-shadow: 1px 1px 1px rgba(39, 37, 37, 0.527);
         justify-content: space-between;
         background-color: black;
 
@@ -93,13 +94,34 @@
     &__coordonnees {
     color: white;
     font-size: 12px;
-    flex-direction: column;
-    align-items: flex-end;
     gap: 0px;
+    margin-left: 20px;
 
     &__mail {
         color: white;
     }
     }
+}
+}
+
+@media screen and (min-width: 1280px) {
+.header {
+    height: 500px;
+
+    &__titre {
+        padding-top: 120px;
+
+
+        &__h1 {
+            font-size: 60px;
+        }
+
+        &__h2 {
+            font-size: 50px;
+        }
+
+    }
+
+
 }
 }
