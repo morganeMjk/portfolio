@@ -20,6 +20,15 @@
             gap: 10px;
             margin-left: 20px;
             color: rgb(233, 226, 226);
+
+            &__lien {
+                color: white;
+            }
+
+            &__lien:visited {
+                color: white;
+            }
+
         }
         
         &__coordonnees {

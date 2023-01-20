@@ -43,6 +43,12 @@ p {
   margin-left: 20px;
   color: rgb(233, 226, 226);
 }
+.header__liens__reseaux__lien {
+  color: white;
+}
+.header__liens__reseaux__lien:visited {
+  color: white;
+}
 .header__liens__coordonnees {
   display: flex;
   height: 1em;
@@ -103,7 +109,7 @@ p {
   background-image: url(../../img/fond3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 50px 0px;
+  padding: 40px 0px;
 }
 .main__articles {
   display: flex;
@@ -243,7 +249,7 @@ img:hover {
 
 article {
   background-color: rgba(255, 255, 255, 0.856);
-  width: 70%;
+  width: 80%;
   margin: auto;
   padding: 10px;
   box-shadow: 1px 1px 1px rgba(82, 81, 81, 0.541);
@@ -263,6 +269,22 @@ article {
   article {
     width: 80%;
   }
+}
+tr {
+  height: 40px;
+}
+
+td:nth-child(1) {
+  width: 30%;
+  text-align: right;
+  vertical-align: top;
+  letter-spacing: 1px;
+  font-size: 7px;
+}
+
+td:nth-child(2) {
+  padding-left: 10px;
+  vertical-align: top;
 }
 
 /*# sourceMappingURL=style.css.map */
