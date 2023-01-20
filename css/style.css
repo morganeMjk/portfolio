@@ -70,7 +70,7 @@ p {
   color: rgb(209, 199, 199);
   text-shadow: 1px 1px 1px black;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
   box-shadow: 1px 1px 1px rgba(39, 37, 37, 0.527);
 }
 .header__titre__h1 {
@@ -125,7 +125,7 @@ p {
   flex-wrap: wrap;
   margin-left: 15px;
   gap: 5px;
-  width: 40%;
+  width: 150px;
 }
 .main__articles__bloc__logos__logo {
   display: flex;
