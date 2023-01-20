@@ -231,18 +231,18 @@ img:hover {
   text-transform: uppercase;
   box-shadow: 1px 1px 1px rgba(99, 99, 99, 0.158);
 }
-.nav__menutel {
+.nav__menu {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 15px;
   margin: 0px;
 }
-.nav__menutel__liens {
+.nav__menu__liens {
   color: rgb(59, 58, 58);
   text-decoration: none;
 }
-.nav__menutel__liens:hover {
+.nav__menu__liens:hover {
   text-decoration: underline;
 }
 
