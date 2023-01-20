@@ -37,11 +37,10 @@ p {
 }
 .header__liens__reseaux {
   display: flex;
-  height: 1em;
   font-size: 12px;
   gap: 10px;
-  margin-left: 20px;
-  color: rgb(233, 226, 226);
+  margin-right: 20px;
+  color: rgb(255, 255, 255);
 }
 .header__liens__reseaux__lien {
   color: white;
@@ -54,12 +53,12 @@ p {
   height: 1em;
   font-size: 6px;
   gap: 10px;
-  margin-right: 5px;
-  color: rgba(0, 0, 0, 0.712);
+  margin-left: 5px;
+  color: rgb(255, 255, 255);
   font-family: "Space Grotesk", sans-serif;
 }
 .header__liens__coordonnees__mail {
-  color: rgba(0, 0, 0, 0.712);
+  color: rgb(255, 255, 255);
   font-family: "Space Grotesk", sans-serif;
   text-decoration: none;
 }
