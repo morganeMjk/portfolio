@@ -61,6 +61,8 @@ p {
   font-family: "Space Grotesk", sans-serif;
   text-decoration: none;
   margin-left: 5px;
+  padding-left: 5px;
+  border-left: 1px solid white;
 }
 .header__menupc {
   display: none;
