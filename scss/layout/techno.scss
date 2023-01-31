@@ -1,0 +1,98 @@
+.main__articles__competences {
+
+    &__categories {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    &__logos {
+        display: flex;
+        gap: 20px;
+        text-align: center;
+        justify-content: center;
+
+        &__logo {
+
+            &__icone {
+                font-size: 30px;
+            }
+
+            &__titre {
+                margin: 10px 0px;
+            }
+        }
+    }
+}
+
+
+#blocs {
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloc {
+    display: flex;
+    gap: 20px;
+}
+
+
+#html {
+    color: rgb(60, 60, 201);
+}
+#css {
+    color: orangered;
+}
+#sass {
+    color: rgb(228, 9, 144);
+}
+#javascript {
+    color: rgb(233, 233, 2);
+}
+#nodejs {
+    color: rgb(12, 163, 12);
+}
+#react {
+    color: rgb(0, 182, 182);
+}
+#python {
+    color: rgb(46, 46, 133);
+}
+#php {
+    color: rgb(70, 1, 126);
+}
+#mysql {
+    color: orangered;
+}
+#windows {
+    color: rgb(17, 130, 206)
+}
+#terminal {
+    color: rgb(126, 2, 126);
+}
+
+
+@media screen and (min-width: 769px) {
+
+
+.main__articles__competences__categories {
+    font-size: 25px;
+    margin: 50px 0px;
+}
+
+.main__articles__competences__logos__logo__icone {
+    font-size: 35px;
+}
+
+.main__articles__competences__logos__logo__titre {
+    font-size: 22px;
+}
+
+.main__articles__competences__logos {
+    gap: 50px;
+}
+
+.bloc {
+    gap: 50px;
+}
+
+}

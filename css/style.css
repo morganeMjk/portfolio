@@ -20,7 +20,7 @@ p {
   line-height: 14px;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 769px) {
   body {
     font-size: 20px;
   }
@@ -112,7 +112,7 @@ p {
     color: white;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 769px) {
   .header {
     height: 500px;
   }
@@ -138,70 +138,93 @@ p {
   gap: 50px;
 }
 
-.main__articles__bloc {
-  display: flex;
+.main__articles__competences__categories {
+  text-align: center;
+  font-size: 15px;
 }
-.main__articles__bloc__logos {
+.main__articles__competences__logos {
   display: flex;
+  gap: 20px;
+  text-align: center;
   justify-content: center;
-  flex-wrap: wrap;
-  margin-left: 15px;
-  gap: 5px;
-  width: 150px;
 }
-.main__articles__bloc__logos__logo {
-  display: flex;
+.main__articles__competences__logos__logo__icone {
+  font-size: 30px;
+}
+.main__articles__competences__logos__logo__titre {
+  margin: 10px 0px;
+}
+
+#blocs {
   flex-direction: column;
   align-items: center;
 }
-.main__articles__bloc__logos__logo__titre {
-  margin: 0px;
-  font-size: 9px;
-}
-.main__articles__bloc__taches {
-  display: flex;
-  flex-direction: column;
-  padding-left: 10px;
-}
 
-#competences i {
-  font-size: 22px;
+.bloc {
+  display: flex;
+  gap: 20px;
 }
 
 #html {
-  color: rgb(248, 110, 19);
+  color: rgb(60, 60, 201);
 }
 
-#css, #python {
-  color: rgb(80, 80, 243);
+#css {
+  color: orangered;
+}
+
+#sass {
+  color: rgb(228, 9, 144);
 }
 
 #javascript {
-  color: rgb(224, 224, 36);
+  color: rgb(233, 233, 2);
 }
 
-#vue {
-  color: rgb(46, 190, 89);
+#nodejs {
+  color: rgb(12, 163, 12);
 }
 
-@media screen and (min-width: 480px) {
-  .main__articles__bloc__logos {
-    width: 25%;
-    gap: 10px;
-  }
-  .main__articles__bloc__taches {
-    padding-left: 30px;
-  }
+#react {
+  color: rgb(0, 182, 182);
 }
-@media screen and (min-width: 1280px) {
-  #competences i {
-    font-size: 50px;
+
+#python {
+  color: rgb(46, 46, 133);
+}
+
+#php {
+  color: rgb(70, 1, 126);
+}
+
+#mysql {
+  color: orangered;
+}
+
+#windows {
+  color: rgb(17, 130, 206);
+}
+
+#terminal {
+  color: rgb(126, 2, 126);
+}
+
+@media screen and (min-width: 769px) {
+  .main__articles__competences__categories {
+    font-size: 25px;
+    margin: 50px 0px;
   }
-  #competences h4 {
-    font-size: 15px;
+  .main__articles__competences__logos__logo__icone {
+    font-size: 35px;
   }
-  .main__articles__bloc__logos {
-    gap: 40px;
+  .main__articles__competences__logos__logo__titre {
+    font-size: 22px;
+  }
+  .main__articles__competences__logos {
+    gap: 50px;
+  }
+  .bloc {
+    gap: 50px;
   }
 }
 #projets {
@@ -240,7 +263,7 @@ img:hover {
     width: 150px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 769px) {
   img {
     width: 300px;
     margin-left: 30px;
@@ -267,7 +290,7 @@ img:hover {
   text-decoration: none;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 769px) {
   .footer {
     height: 100px;
   }
@@ -296,7 +319,7 @@ img:hover {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 769px) {
   .nav {
     font-size: 18px;
   }
@@ -327,7 +350,7 @@ article {
     width: 80%;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 769px) {
   article {
     width: 60%;
     padding: 50px;
@@ -350,7 +373,7 @@ td:nth-child(2) {
   vertical-align: top;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 769px) {
   tr {
     height: 70px;
   }
