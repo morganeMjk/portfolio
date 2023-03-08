@@ -1,1 +1,9 @@
-@import 'layout/body', 'layout/header', 'layout/main', 'layout/techno', 'layout/projets', 'layout/footer', 'layout/nav', 'layout/articles', 'layout/parcours'
+@import 'layout/articles.scss';
+@import 'layout/body.scss';
+@import 'layout/footer.scss';
+@import 'layout/header.scss';
+@import 'layout/main.scss';
+@import 'layout/nav.scss';
+@import 'layout/parcours.scss';
+@import 'layout/projets.scss';
+@import 'layout/techno.scss'
