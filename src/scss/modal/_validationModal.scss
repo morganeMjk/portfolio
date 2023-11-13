@@ -1,0 +1,48 @@
+.validation-modal {
+    width: 100%;
+    background-color: rgba(221, 221, 221, 0.3);
+    backdrop-filter: blur(8px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+
+    &__button {
+        font-size: 36px;
+        border-radius: 30px;
+        width: 50px;
+        height: 50px;
+        background-color: $grey;
+        box-shadow: $boxShadow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+
+    &__content {
+        color: $grey;
+        font-size: 30px;
+        margin: 40% 40px 0px 40px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .validation-modal {
+        gap: 30px;
+        height: 105%;
+
+    &__content {
+        font-size: 30px;
+        margin: 20% 0px 0px 0px;
+    }
+    }
+}

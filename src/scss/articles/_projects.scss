@@ -1,0 +1,103 @@
+.projects__content__card {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    position: relative;
+    height: 200px;
+
+    &__image {
+        border-radius: 3px;
+        overflow: hidden;
+        object-fit: cover;
+        object-position: center;
+        height: 200px;
+        width: 100%;
+        box-shadow: $boxShadow;
+    }
+}
+
+
+
+.projects__content__card__overlay {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+
+    &__title {
+        font-weight: 600;
+        font-size: 22px;
+        color: $grey;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+
+    .projects__content__card {
+        height: 300px;
+        width: 70%;
+        margin-bottom: 100px;
+
+        &__image {
+            height: 400px;
+        }
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+
+    .projects__content {
+        display: flex;
+        align-items: center;
+    }
+
+    .projects__content__card-hover {
+        position: relative;
+        width: 60%;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+
+    .projects__content__card__overlay-hover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        background-color: rgba(255, 255, 255, 0.8);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s ease, visibility 0.5s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+
+        &__title {
+            font-size: 34px;
+        }
+    }
+
+    .projects__content__card-hover:hover .projects__content__card__overlay-hover {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .projects__content__card-hover:not(:hover) .projects__content__card__overlay-hover {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+
+}
+

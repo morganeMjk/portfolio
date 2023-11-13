@@ -1,0 +1,80 @@
+.css,
+.python {
+    color: blue;
+}
+
+.html,
+.mysql,
+.stackoverflow {
+    color: orangered;
+}
+
+.sass {
+    color: rgb(209, 49, 156);
+}
+
+.javascript,
+.express {
+    color: yellow;
+}
+
+.nodejs {
+    color: green;
+}
+
+.react,
+.windows,
+.typescript {
+    color: rgb(0, 110, 255);
+}
+
+.php,
+.bash {
+    color: rgb(46, 5, 80);
+}
+
+.figma {
+    color: rgb(255, 96, 68)
+}
+
+.git,
+.angular {
+    color: red;
+}
+
+.materialize {
+    color: rgb(228, 108, 115);
+}
+
+.bash {
+    font-size: 36px !important;
+}
+
+
+.skills {
+
+    &__category {
+        color: $grey;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 20px;
+
+        &__logo {
+            width: 33%;
+            margin: auto;
+            margin-bottom: 30px;
+            text-align: center;
+
+            &__icon {
+                font-size: 40px;
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.header__social-medias {
+    align-self: flex-start;
+    margin-left: 20px;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    z-index: 9999;
+    
+    &__link {
+        color: white;
+    }
+
+    &__icon {
+        font-size: 30px;
+        text-shadow: 2px 2px 5px $grey;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    .header__social-medias__icon {
+    font-size: 44px;
+    }
+}

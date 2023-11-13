@@ -1,0 +1,17 @@
+.cursor {
+    margin-left: 6px;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+.cursor.active {
+    animation: blinkCursor infinite 1s;
+    box-shadow: none;
+}
+
+
+@keyframes blinkCursor {
+    50% {
+        color: transparent;
+    }
+}

@@ -1,0 +1,13 @@
+.introduction__content {
+    line-height: 1.7em;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 1280px) {
+
+    .introduction__content {
+        text-align: justify;
+        line-height: 40px;
+    }
+}

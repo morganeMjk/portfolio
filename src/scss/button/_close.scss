@@ -1,0 +1,12 @@
+.close-button {
+    align-self: flex-end;
+    color: rgb(139, 124, 124);
+    font-size: 26px;
+}
+
+@media screen and (min-width: 912px) {
+    .close-button {
+        font-size: 40px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap');
+
+@import './base' ;
+@import './variables';
+@import './header';
+@import './footer';
+@import './contact';
+
+@import './animations/cursor';
+
+@import './header/navbar';
+@import './header/socialMedias';
+@import './header/title';
+@import './header/video' ;
+
+@import './articles/articles';
+@import './articles/experiences';
+@import './articles/introduction';
+@import './articles/projects';
+@import './articles/skills';
+
+@import './button/bubble';
+@import './button/carousel';
+@import './button/close';
+@import './button/contact';
+@import './button/form';
+@import './button/overlay';
+
+@import './modal/projectModal';
+@import './modal/_validationModal';

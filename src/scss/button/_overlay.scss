@@ -1,0 +1,21 @@
+.overlay-button {
+   cursor: pointer;
+   background-color: rgb(228, 220, 220);
+   padding: 10px 15px;
+   border-radius: 6px;
+   box-shadow: $boxShadow;
+   font-size: 16px;
+   color: $grey;
+   font-weight: 500;
+}
+
+.overlay-hover-button {
+   cursor: pointer;
+   background-color: rgb(146, 126, 126);
+   padding: 10px 25px;
+   border-radius: 6px;
+   box-shadow: $boxShadow;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+}
