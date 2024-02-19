@@ -146,9 +146,27 @@ const skills = [
         classname: "stackoverflow",
         skillsTypeId: [3]
     },
-
-
-
+    {
+        id: 22,
+        title: "C#",
+        logo: "fa-solid fa-c",
+        classname: "csharp",
+        skillsTypeId: [2]
+    },
+    {
+        id: 23,
+        title: ".NET",
+        logo: "fa-solid fa-n",
+        classname: "dotnet",
+        skillsTypeId: [2]
+    },
+    {
+        id: 24,
+        title: "Méthodologie Agile",
+        logo: "fa-solid fa-a",
+        classname: "agile",
+        skillsTypeId: [3]
+    },
 
 ];
 

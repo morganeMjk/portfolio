@@ -4,7 +4,7 @@ const projects = [
     title: "Pokédex",
     skillsId: [6, 3, 8, 10],
     content: ["LE traditionnel Pokédex, et oui ! Rien d'innovant, je vous l'accorde.",  "L'intérêt ici était de découvrir Angular sous tous ces angles :",  "Composants - Templates - Directives - Pipes - Routes - Modules - Services - Formulaires - Programmation réactive - Requêtes Http - Authentification et sécurité.", "Ce projet a été réalisé à l'aide de la vidéo youtube de Simon Dierny.", "Après avoir suivi le tutoriel complet, je suis revenue sur l'intégralité des fichiers, afin d'y apposer des commentaires complets, me permettant ainsi de valider ma compréhension du fonctionnement de ce Framework.", "Rendez-vous prochainement ici, pour découvrir mes futurs projets Angular !"],
-    link: "https://github.com/morganeMjk/ng-pokemon-app",
+    link: "https://github.com/morganeMjk/pokedex-app",
     visit: "Consulter le repo Github",
     thumbnail: "projet4.png",
     target: true,
@@ -37,11 +37,33 @@ const projects = [
     title: "Formulaire",
     skillsId: [1, 2, 4],
     content: ["Ce projet résulte d'un exercice pratique qui m'a été demandé durant ma formation de développeur web.",  "La consigne été de réaliser un formulaire pour une commande de pizzas en ligne.",  "Il était demandé d'utiliser différents types de champs, d'ajouter des messages d'erreur et la validation des données saisies par l'utilisateur, et d'ajouter une fonction permettant le calcul du cout global de la commande."],
-    link: "https://github.com/morganeMjk/js_formulaires/tree/main/exercice2",
+    link: "https://github.com/morganeMjk/pizza-form",
     visit: "Consulter le repo Github",
     thumbnail: "projet3.jpg",
     target: true,
     date: "Février 2023"
+  },
+  {
+    id: 5,
+    title: "API",
+    skillsId: [23 , 22],
+    content: ["Ce projet résulte d'un exercice pratique qui m'a été demandé durant le bootcamp .Net C#.",  "La consigne été de réaliser le site internet pour un restaurant et d'y implémenter un backoffice permettant l'ajout, la modification et la suppression des données."],
+    link: "https://github.com/simplon-lille-csharp-dotnet/laCroute_dev",
+    visit: "Consulter le repo Github",
+    thumbnail: "projet5.png",
+    target: true,
+    date: "Janvier 2024"
+  },
+  {
+    id: 6,
+    title: "Application Console",
+    skillsId: [23 , 22],
+    content: ["Ce projet résulte d'un exercice pratique qui m'a été demandé durant le bootcamp .Net C#.",  "Cette application permet aux utilisateurs de gérer leurs comptes bancaires, d'effectuer des dépôts, des retraits, des transferts et de consulter l'historique des transactions.", "L'application prend en charge deux types de comptes : le compte courant et le compte épargne."],
+    link: "https://github.com/morganeMjk/dev-bank",
+    visit: "Consulter le repo Github",
+    thumbnail: "projet6.png",
+    target: true,
+    date: "Décembre 2023"
   },
 ];
 

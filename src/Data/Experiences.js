@@ -79,9 +79,30 @@ const experiences = [
     {
       id: 12,
       startDate: "Juillet 2023",
-      endDate: "~Actuellement~",
+      endDate: "Octobre 2023",
       title: "Formation autodidacte : TypeScript, Angular",
       content: []
+    },
+    {
+      id: 13,
+      startDate: "Octobre 2023",
+      endDate: "Novembre 2023",
+      title: "Intégration de l'incubateur numérique de Lille", 
+      content: ["Réalisation d'un projet de boutique en ligne en contexte Agile", "Back-End - NodeJs, Express, PhpMyAdmin : Création de la base de données correspondant au MCD élaboré, Création de l'API et intégration des fichiers de migration, des modèles, des routes, et des controllers. Création et intération de middelwares d'authentification et de restriction.", "Ajout d'un API Handler front utilisant la bibliothèque Axios pour la réalisation des requêtes."]
+    },
+    {
+      id: 14,
+      startDate: "Novembre 2023",
+      endDate: "Janvier 2024",
+      title: "Bootcamp module Backend .Net 6 ", 
+      content: ["langage C#, POO, conceptualisation, tests unitaires"]
+    },
+    {
+      id: 15,
+      startDate: "Mars 2024",
+      endDate: "Septembre 2025",
+      title: "Formation Concepteur Développeur d'Applications en environnement DevOps (bac+3/4) - Alternance : 3 semaines en entreprise et 1 semaine de théorie", 
+      content: ["Enrichir une base de données client - Faire évoluer une API Rest et les fonctions qui l’utilisent - Concevoir et intégrer un nouveau service", "Concevoir et développer les tests d’une application - Tester et améliorer les composants d'interface d’une application - Tester et améliorer les composants serveur d’une application", "Mettre en place un pipeline d'intégration continue - Optimiser la performance d’une interface - Optimiser la performance des composants serveur d'une application", "Mettre en place un pipeline de livraison continue - Concevoir et développer dans un format de micro-services"]
     },
   ];
   
